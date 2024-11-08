@@ -19,18 +19,15 @@
             margin-bottom: 30px;
         }
         .vintage-img {
+            margin: 20px auto;
+            text-align: center;
+        }
+        .vintage-img img {
             width: 800px;
             height: 400px;
-            background: #ddd;
-            margin: 20px auto;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-style: italic;
-            color: #666;
-            object-fit: cover; /* This will ensure the image covers the area nicely */
+            object-fit: cover;
+            max-width: 100%;
         }
-        /* Rest of your CSS remains the same */
         .review {
             background: white;
             padding: 20px;
@@ -55,13 +52,13 @@
     </style>
 </head>
 <body>
-    <!-- Copy all the HTML content from the previous version here -->
     <div class="header">
         <h1>Bates Motel Reviews</h1>
         <p>12 Rooms, Individual Bathrooms, Scenic Views</p>
-        <div class="vintage-img"><img src="Bates Motel.png"></div>
+        <div class="vintage-img">
+            <img src="Bates Motel.png" alt="Bates Motel Exterior">
+        </div>
     </div>
-
     <div class="review">
         <div class="rating">★★★★☆</div>
         <p>"Very quiet place to stay - almost too quiet! The owner seemed nice enough, though a bit awkward. The shower had great water pressure. My only complaint was some strange noises from the house on the hill at night. Would probably stay again."</p>
