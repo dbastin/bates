@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bates Motel Reviews</title>
     <style>
-        /* Copy all the CSS from the previous HTML here */
         body {
             font-family: 'Georgia', serif;
             max-width: 800px;
@@ -19,6 +18,19 @@
             padding-bottom: 20px;
             margin-bottom: 30px;
         }
+        .vintage-img {
+            width: 800px;
+            height: 400px;
+            background: #ddd;
+            margin: 20px auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-style: italic;
+            color: #666;
+            object-fit: cover; /* This will ensure the image covers the area nicely */
+        }
+        /* Rest of your CSS remains the same */
         .review {
             background: white;
             padding: 20px;
@@ -39,17 +51,6 @@
         .date {
             color: #888;
             font-size: 0.9em;
-        }
-        .vintage-img {
-            width: 100%;
-            height: 200px;
-            background: #ddd;
-            margin: 20px 0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-style: italic;
-            color: #666;
         }
     </style>
 </head>
