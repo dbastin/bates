@@ -33,6 +33,23 @@
             object-fit: cover;
             max-width: 100%;
         }
+        .amenities {
+            background: #f8f5f1;
+            padding: 20px;
+            margin: 20px 0;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+        .amenities-list {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 10px;
+        }
+        .amenities-item {
+            flex: 0 1 200px;
+        }
         .review {
             background: white;
             padding: 20px;
@@ -54,6 +71,26 @@
             color: #888;
             font-size: 0.9em;
         }
+        .rates {
+            background: #483d3d;
+            color: white;
+            padding: 15px;
+            margin: 20px 0;
+            text-align: center;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid #483d3d;
+            font-style: italic;
+            color: #666;
+        }
+        .notice {
+            font-size: 0.9em;
+            color: #b33;
+            margin: 10px 0;
+        }
     </style>
 </head>
 <body>
@@ -67,6 +104,28 @@
             <img src="Bates Motel.png" alt="Bates Motel Exterior">
         </div>
     </div>
+
+    <div class="amenities">
+        <h2>Modern Amenities</h2>
+        <div class="amenities-list">
+            <div class="amenities-item">✓ Private Bathrooms</div>
+            <div class="amenities-item">✓ Hot & Cold Water</div>
+            <div class="amenities-item">✓ Clean Linens Daily</div>
+            <div class="amenities-item">✓ Parlor with TV</div>
+            <div class="amenities-item">✓ Free Parking</div>
+            <div class="amenities-item">✓ 24-Hour Management</div>
+        </div>
+    </div>
+
+    <div class="rates">
+        <h2>Reasonable Rates</h2>
+        <p>Single Room: $10.00 per night<br>
+        Double Room: $15.00 per night<br>
+        Weekly Rates Available</p>
+        <p class="notice">Call Fairvale 419 for Reservations</p>
+    </div>
+
+    <!-- Previous reviews section -->
     <div class="review">
         <div class="rating">★★★★☆</div>
         <p>"Very quiet place to stay - almost too quiet! The owner seemed nice enough, though a bit awkward. The shower had great water pressure. My only complaint was some strange noises from the house on the hill at night. Would probably stay again."</p>
@@ -93,6 +152,12 @@
         <p>"The room was fine but what's with all the stuffed birds? And I swear I saw someone in the window of that old house, but the owner insisted his mother never comes down. Creepy vibes. Might try the Holiday Inn next time."</p>
         <p class="author">- S. Loomis</p>
         <p class="date">December 1959</p>
+    </div>
+
+    <div class="footer">
+        <p>"A boy's best friend is his mother" - Norman Bates, Proprietor</p>
+        <p>Member of California Motel Association<br>
+        Under New Management Since 1959</p>
     </div>
 </body>
 </html>
